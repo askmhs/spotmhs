@@ -1,0 +1,6 @@
+framework module Pods_spot_mhs {
+  umbrella header "Pods-spot-mhs-umbrella.h"
+
+  export *
+  module * { export * }
+}

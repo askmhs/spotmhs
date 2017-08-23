@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB4902D98F4F89FED5174C0 /* Pods_spot_mhs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C3C83A0A827090C8D38FC0 /* Pods_spot_mhs.framework */; };
+		D6F6AA801E0FBDFF00DF2B00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6AA7F1E0FBDFF00DF2B00 /* AppDelegate.swift */; };
+		D6F6AA821E0FBDFF00DF2B00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6AA811E0FBDFF00DF2B00 /* ViewController.swift */; };
+		D6F6AA851E0FBDFF00DF2B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F6AA831E0FBDFF00DF2B00 /* Main.storyboard */; };
+		D6F6AA871E0FBDFF00DF2B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F6AA861E0FBDFF00DF2B00 /* Assets.xcassets */; };
+		D6F6AA8A1E0FBDFF00DF2B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F6AA881E0FBDFF00DF2B00 /* LaunchScreen.storyboard */; };
+		D6F6AA921E0FCC9D00DF2B00 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6AA911E0FCC9D00DF2B00 /* AudioVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82C3C83A0A827090C8D38FC0 /* Pods_spot_mhs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spot_mhs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		870AB67BCBA94E9B5C4812A3 /* Pods-spot-mhs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spot-mhs.release.xcconfig"; path = "Pods/Target Support Files/Pods-spot-mhs/Pods-spot-mhs.release.xcconfig"; sourceTree = "<group>"; };
+		D6F6AA7C1E0FBDFF00DF2B00 /* spot-mhs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spot-mhs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F6AA7F1E0FBDFF00DF2B00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6F6AA811E0FBDFF00DF2B00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6F6AA841E0FBDFF00DF2B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F6AA861E0FBDFF00DF2B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F6AA891E0FBDFF00DF2B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F6AA8B1E0FBDFF00DF2B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F6AA911E0FCC9D00DF2B00 /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		F52D3790CE11D7997E0F6E16 /* Pods-spot-mhs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spot-mhs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spot-mhs/Pods-spot-mhs.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F6AA791E0FBDFF00DF2B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4902D98F4F89FED5174C0 /* Pods_spot_mhs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566A56988592469188F1FC76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F52D3790CE11D7997E0F6E16 /* Pods-spot-mhs.debug.xcconfig */,
+				870AB67BCBA94E9B5C4812A3 /* Pods-spot-mhs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F6AA731E0FBDFF00DF2B00 = {
+			isa = PBXGroup;
+			children = (
+				D6F6AA7E1E0FBDFF00DF2B00 /* spot-mhs */,
+				D6F6AA7D1E0FBDFF00DF2B00 /* Products */,
+				566A56988592469188F1FC76 /* Pods */,
+				E220F7070586FB867D4B773B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F6AA7D1E0FBDFF00DF2B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F6AA7C1E0FBDFF00DF2B00 /* spot-mhs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F6AA7E1E0FBDFF00DF2B00 /* spot-mhs */ = {
+			isa = PBXGroup;
+			children = (
+				D6F6AA7F1E0FBDFF00DF2B00 /* AppDelegate.swift */,
+				D6F6AA811E0FBDFF00DF2B00 /* ViewController.swift */,
+				D6F6AA831E0FBDFF00DF2B00 /* Main.storyboard */,
+				D6F6AA911E0FCC9D00DF2B00 /* AudioVC.swift */,
+				D6F6AA861E0FBDFF00DF2B00 /* Assets.xcassets */,
+				D6F6AA881E0FBDFF00DF2B00 /* LaunchScreen.storyboard */,
+				D6F6AA8B1E0FBDFF00DF2B00 /* Info.plist */,
+			);
+			path = "spot-mhs";
+			sourceTree = "<group>";
+		};
+		E220F7070586FB867D4B773B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C3C83A0A827090C8D38FC0 /* Pods_spot_mhs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F6AA7B1E0FBDFF00DF2B00 /* spot-mhs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F6AA8E1E0FBDFF00DF2B00 /* Build configuration list for PBXNativeTarget "spot-mhs" */;
+			buildPhases = (
+				6035E89E1AACAF1F4DA3AA1F /* [CP] Check Pods Manifest.lock */,
+				D6F6AA781E0FBDFF00DF2B00 /* Sources */,
+				D6F6AA791E0FBDFF00DF2B00 /* Frameworks */,
+				D6F6AA7A1E0FBDFF00DF2B00 /* Resources */,
+				455097B8539F796A4636551E /* [CP] Embed Pods Frameworks */,
+				810A2F62972602DE01F9BA0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spot-mhs";
+			productName = "spot-mhs";
+			productReference = D6F6AA7C1E0FBDFF00DF2B00 /* spot-mhs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F6AA741E0FBDFF00DF2B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "M Harits S";
+				TargetAttributes = {
+					D6F6AA7B1E0FBDFF00DF2B00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 78PANQL3DE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D6F6AA771E0FBDFF00DF2B00 /* Build configuration list for PBXProject "spot-mhs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F6AA731E0FBDFF00DF2B00;
+			productRefGroup = D6F6AA7D1E0FBDFF00DF2B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F6AA7B1E0FBDFF00DF2B00 /* spot-mhs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F6AA7A1E0FBDFF00DF2B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F6AA8A1E0FBDFF00DF2B00 /* LaunchScreen.storyboard in Resources */,
+				D6F6AA871E0FBDFF00DF2B00 /* Assets.xcassets in Resources */,
+				D6F6AA851E0FBDFF00DF2B00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		455097B8539F796A4636551E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spot-mhs/Pods-spot-mhs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6035E89E1AACAF1F4DA3AA1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		810A2F62972602DE01F9BA0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spot-mhs/Pods-spot-mhs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F6AA781E0FBDFF00DF2B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F6AA821E0FBDFF00DF2B00 /* ViewController.swift in Sources */,
+				D6F6AA921E0FCC9D00DF2B00 /* AudioVC.swift in Sources */,
+				D6F6AA801E0FBDFF00DF2B00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6F6AA831E0FBDFF00DF2B00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F6AA841E0FBDFF00DF2B00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F6AA881E0FBDFF00DF2B00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F6AA891E0FBDFF00DF2B00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F6AA8C1E0FBDFF00DF2B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F6AA8D1E0FBDFF00DF2B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F6AA8F1E0FBDFF00DF2B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52D3790CE11D7997E0F6E16 /* Pods-spot-mhs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78PANQL3DE;
+				INFOPLIST_FILE = "spot-mhs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mharitss.spot-mhs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6F6AA901E0FBDFF00DF2B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870AB67BCBA94E9B5C4812A3 /* Pods-spot-mhs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78PANQL3DE;
+				INFOPLIST_FILE = "spot-mhs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mharitss.spot-mhs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F6AA771E0FBDFF00DF2B00 /* Build configuration list for PBXProject "spot-mhs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F6AA8C1E0FBDFF00DF2B00 /* Debug */,
+				D6F6AA8D1E0FBDFF00DF2B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F6AA8E1E0FBDFF00DF2B00 /* Build configuration list for PBXNativeTarget "spot-mhs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F6AA8F1E0FBDFF00DF2B00 /* Debug */,
+				D6F6AA901E0FBDFF00DF2B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F6AA741E0FBDFF00DF2B00 /* Project object */;
+}
